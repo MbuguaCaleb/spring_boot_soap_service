@@ -58,6 +58,12 @@ My spring boot application will communicate to myXML through the
 help of these binding classes.
 
 Creates for me packages that will help me reach my XML classes 
+
+
+3.Remember i need to have a WSDL file after developing my service
+since SOAP requests are consumed from the WSDL file.
+
+
 ```
 
 **WSDL**
