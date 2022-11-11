@@ -17,9 +17,8 @@ public class LoanEligibilityService {
 
         //xml response for mismatch
         //it is an Object that i will put my data when there is a mismatch
-       // List<String> mismatchCriteriaList = new ArrayList<>();
 
-        List<String> mismatchCriteriaList = acknowledgement.getCriteriaMismatch();
+       List<String> mismatchCriteriaList = acknowledgement.getCriteriaMismatch();
 
         int minimumIncome = 200000;
         int cibilScore = 500;
